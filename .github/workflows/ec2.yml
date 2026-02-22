@@ -6,6 +6,7 @@ on:
       - opened
       - closed
 
+
 env:
     TARGET: home
     EC2_USER: ubuntu
