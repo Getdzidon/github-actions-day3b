@@ -3,7 +3,7 @@ name: Simple workflow
 on:
   schedule: 
     - cron: "*/3 * * * *"  # Runs every 3 minutes
-# workflow_dispatch: 
+  workflow_dispatch: 
 
 jobs:
   deploy:
