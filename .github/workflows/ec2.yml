@@ -2,7 +2,7 @@ name: Simple workflow
 
 on:
   schedule: 
-    - cron: "*/3 * * * *"  # Runs every 3 minutes
+    - cron: "*/2 * * * *"  # Runs every 2 minutes
   workflow_dispatch: 
 
 jobs:
