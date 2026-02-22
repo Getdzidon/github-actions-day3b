@@ -1,13 +1,12 @@
 name: Deploy App to EC2
 
 on:
-  push:
-    paths-ignore:   
-      - dockerignore
-      - gitignore
-      - .github/**
-      - README.md
- 
+  pull_request:
+    types: # or [opened, closed]
+      - opened
+      - closed
+    paths-ignore:
+    branches:
 
 env:
     TARGET: home
