@@ -2,9 +2,9 @@ name: Deploy App to EC2
 
 on:
   pull_request:
-    types: 
+    types:
       - opened
-      - clsed
+      - closed
 
 
 env:
