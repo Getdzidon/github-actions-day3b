@@ -2,11 +2,10 @@ name: Deploy App to EC2
 
 on:
   pull_request:
-    types: # or [opened, closed]
+    types: 
       - opened
-      - closed
-    paths-ignore:
-    branches:
+      - clsed
+
 
 env:
     TARGET: home
