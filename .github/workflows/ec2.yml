@@ -2,8 +2,11 @@ name: Deploy App to EC2
 
 on:
   push:
-    branches-ignore: 
-      - main
+    paths:      
+      - css/**
+      - images/**
+      - index.html
+      - Dockerfile
  
 
 env:
