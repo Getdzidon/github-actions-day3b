@@ -2,11 +2,11 @@ name: Deploy App to EC2
 
 on:
   push:
-    paths:      
-      - css/**
-      - images/**
-      - index.html
-      - Dockerfile
+    paths-ignore:   
+      - dockerignore
+      - gitignore
+      - .github/**
+      - README.md
  
 
 env:
