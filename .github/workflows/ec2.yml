@@ -2,8 +2,8 @@ name: Deploy App to EC2
 
 on:
   push:
-    branches:
-    - main
+    branches-ignore: 
+      - main
  
 
 env:
