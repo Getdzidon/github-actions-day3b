@@ -1,8 +1,3 @@
-This is a test readme.md file
-I will be using it to test paths and path-ignore
-
-I am making a change to this file
-
-Making a change again
-
-change
+This repository was used during the teaching of GITHUB ACTIONS
+So, do not expect any serious information or deployments here.
+It is made public for the reference of Students
